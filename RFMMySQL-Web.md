@@ -21,18 +21,6 @@ Image(url= "https://geoffreynel.com/wp-content/uploads/2021/08/rfm-metrics-trans
 Import libraries and connection information
 
 
-```python
-# Loading libraries
-import pandas as pd
-import time
-import sqlalchemy
-from sqlalchemy import create_engine
-import pymysql
-
-# Loading the connection information
-%load_ext sql
-%sql mysql+pymysql://root:admin@localhost:3306/brazilecom          
-```
 
     The sql extension is already loaded. To reload it, use:
       %reload_ext sql
